@@ -32,17 +32,6 @@ p {
   padding: 4px 8px;
 }
 
-.search-options {
-  display: flex;
-  align-items: center;
-} 
-
-.option {
-  margin-right: 16px;
-  font-size: 14px;
-  color: #333;
-}
-
 .search-icon {
   display: flex;
   align-items: center;
