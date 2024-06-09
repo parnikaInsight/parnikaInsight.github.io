@@ -7,7 +7,9 @@ p {
     color: greenyellow;
   }
 
-input[type=text] {
-    border: 1px solid #ccc;
+#searchbar {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  text-align: center;
+  background: #73AD21;
 }
-
