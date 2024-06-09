@@ -7,16 +7,17 @@ p {
     color: greenyellow;
   }
 
-/* #searchbar {
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  text-align: center;
-  background: #73AD21;
-} */
+ .centerpiece {
+  display: grid;
+  place-items: center; /* Centers the grid item horizontally and vertically */
+  height: 100vh;
+  margin: 0;
+} 
 
 .search-bar {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 24px;
