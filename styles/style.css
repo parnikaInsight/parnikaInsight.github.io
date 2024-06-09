@@ -3,59 +3,14 @@ h1 {
     text-align: center;
   }
 
-p {
+/* p {
     color: greenyellow;
-  }
+  } */
 
-/* #searchbar {
-  border: 1px solid #ccc;
-  border-radius: 25px;
+#searchbar {
   text-align: center;
-  background: #73AD21;
-} */
-
-.search-bar {
+  background: #FFFDD0;
+  width: 100%;
+  position: relative;
   display: flex;
-  align-items: center;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 24px;
-  padding: 8px 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.search-input {
-  flex: 1;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  padding: 4px 8px;
-}
-
-.search-options {
-  display: flex;
-  align-items: center;
-} 
-
-.option {
-  margin-right: 16px;
-  font-size: 14px;
-  color: #333;
-}
-
-.search-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background-color: #ff385c;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.search-icon svg {
-  fill: #fff;
-  width: 18px;
-  height: 18px;
 }
