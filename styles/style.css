@@ -1,23 +1,19 @@
 h1 {
     font-size: 50px;
     text-align: center;
+    margin-bottom: 1rem;
   }
 
 p {
     color: greenyellow;
   }
 
- .centerpiece {
-  display: grid;
-  place-items: center; /* Centers the grid item horizontally and vertically */
-  height: 100vh;
-  margin: 0;
-} 
-
 .search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set the container height to the full viewport height */
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 24px;
